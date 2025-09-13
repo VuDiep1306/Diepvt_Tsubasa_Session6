@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: red;
+}
+.profile {
+    display: flex;
+    text-align: center;
+    justify-content: center; /*canh giua noi dung toan bo*/
+    align-items: center; /*canh giua theo chieu doc*/
+    gap: 20px /*khoang cach giua anh va chu*/
+}
+.profile img {
+    width: 120px;
+    border-radius: 50%;
+}
+footer {
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 30px;
+}
+footer a:hover {
+color: red;
+}
