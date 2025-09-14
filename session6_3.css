@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    line-height: 1.8;
+    color: black;
+    padding: 20px;
+}
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+header .logo {
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: red;
+}
+.profile {
+    background-color: lightgray;
+    display: flex;
+    text-align: center;
+    justify-content: left; /*canh giua noi dung toan bo*/
+    align-items: center; /*canh giua theo chieu doc*/
+    gap: 20px /*khoang cach giua anh va chu*/
+}
+.profile img {
+    width: 120px;
+    border-radius: 50%;
+}
+.project-list {
+    display: flex;
+    gap: 20px;
+}
+.project-list button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    flex: 1;
+    padding: 15px;
+}
+.project-list button:hover {
+    color: red;
+}
+footer {
+    background-color: lightgray;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
